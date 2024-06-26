@@ -1,0 +1,29 @@
+Task 1: Basic Blog Application
+Description:
+Create a basic blog application where users can create, read, update, and delete blog posts. Each post should have a title, content, and timestamp.
+
+Project Structure:
+
+arduino
+Copy code
+blog_app/
+├── server/
+│   ├── controllers/
+│   │   └── postController.js
+│   ├── models/
+│   │   └── postModel.js
+│   ├── routes/
+│   │   └── postRoutes.js
+│   ├── config/
+│   │   └── db.js
+│   └── app.js
+├── client/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── PostForm.js
+│   │   │   ├── PostList.js
+│   │   │   ├── PostItem.js
+│   │   └── App.js
+│   └── public/
+│       └── index.html
+└── package.json
